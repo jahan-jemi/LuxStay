@@ -1,16 +1,16 @@
 // ==================== DATA ====================
         // Array of all hotels
         var hotels = [
-            { id: 1, name: "Grand Plaza Hotel", location: "New York, USA", price: 250, rating: 4.8, image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=400" },
-            { id: 2, name: "Sunset Beach Resort", location: "Miami, USA", price: 180, rating: 4.6, image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400" },
-            { id: 3, name: "Ruposhi Bangla Hotel", location: "Dhaka, Bangladesh", price: 85, rating: 4.5, image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400" },
-            { id: 4, name: "Pan Pacific Sonargaon", location: "Dhaka, Bangladesh", price: 120, rating: 4.7, image: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=400" },
-            { id: 5, name: "Cox's Bazar Beach Resort", location: "Cox's Bazar, Bangladesh", price: 95, rating: 4.6, image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400" },
-            { id: 6, name: "The Ritz London", location: "London, UK", price: 450, rating: 4.9, image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400" },
-            { id: 7, name: "Burj Al Arab", location: "Dubai, UAE", price: 850, rating: 5.0, image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400" },
-            { id: 8, name: "Taj Mahal Palace", location: "Mumbai, India", price: 200, rating: 4.8, image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400" },
-            { id: 9, name: "Marina Bay Sands", location: "Singapore", price: 380, rating: 4.8, image: "https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?w=400" },
-            { id: 10, name: "Shangri-La Tokyo", location: "Tokyo, Japan", price: 420, rating: 4.9, image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400" }
+            { id: 1, name: "Grand Plaza Hotel", location: "New York, USA", price: 250, rating: 4.8, image: "images/grand plaza hotel.jpg" },
+            { id: 2, name: "Sunset Beach Resort", location: "Miami, USA", price: 180, rating: 4.6, image: "images/sunset beach resort.jpg" },
+            { id: 3, name: "Ruposhi Bangla Hotel", location: "Dhaka, Bangladesh", price: 85, rating: 4.5, image: "images/ruposhi bangla hotel.jpg" },
+            { id: 4, name: "Pan Pacific Sonargaon", location: "Dhaka, Bangladesh", price: 120, rating: 4.7, image: "images/pan pacific hotel.jpg" },
+            { id: 5, name: "Cox's Bazar Beach Resort", location: "Cox's Bazar, Bangladesh", price: 95, rating: 4.6, image: "images/coxs bazar beach resort.jpg" },
+            { id: 6, name: "The Ritz London", location: "London, UK", price: 450, rating: 4.9, image: "images/the ritz london.jpg" },
+            { id: 7, name: "Burj Al Arab", location: "Dubai, UAE", price: 850, rating: 5.0, image: "images/burj al arab.jpg" },
+            { id: 8, name: "Taj Mahal Palace", location: "Mumbai, India", price: 200, rating: 4.8, image: "images/taj mahal palace.jpg"    },
+            { id: 9, name: "Marina Bay Sands", location: "Singapore", price: 380, rating: 4.8, image: "images/marina bay sands.jpg" },
+            { id: 10, name: "Shangri-La Tokyo", location: "Tokyo, Japan", price: 420, rating: 4.9, image: "images/shangri-la.jpg" }
         ];
 
         // Variables to store current state
