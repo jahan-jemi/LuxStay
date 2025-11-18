@@ -1,0 +1,51 @@
+:root {
+            --primary-color: #3498db;
+            --secondary-color: #e74c3c;
+        }
+
+        .navbar-brand span {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                        url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200') center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .search-card {
+            margin-top: -80px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .hotel-img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .rating-badge {
+            background-color: var(--primary-color);
+        }
+
+        .price {
+            color: #27ae60;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: all 0.3s;
+        }
